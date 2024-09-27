@@ -31,22 +31,19 @@ const AboutMain: React.FC<AboutMain> = ({ url, onClick }) => {
       <section id="home" className="about">
         <div className="about__left">
           <h1 className="about__left--header">
-            Witamy na stronie klanu Dobry Klan. Jesteśmy zgraną ekipą, która gra
-            ze sobą od lat w przyjaznej atmosferze i aktualnie jest nas{" "}
+            Witamy na stronie klanu Nocne Cienie. Jesteśmy zgraną ekipą, która
+            gra ze sobą od lat w przyjaznej atmosferze i aktualnie jest nas{" "}
             {data.members} osób. Jeżeli posiadasz TH 14+ zapraszamy w nasze
             skromne progi. Jeżeli zaś posiadasz niższe TH zapraszamy do naszej
             akademii.
           </h1>
-          <button
-            onClick={onClick}
-            className="about__left--button"
-          >
+          <button onClick={onClick} className="about__left--button">
             AKADEMIA
           </button>
         </div>
         <div className="about__right">
           <img src={data.badgeUrls.medium} alt="logo Dobry Klan" />
-          <h2 className="about__right--clanName">Dobry Klan</h2>
+          <h2 className="about__right--clanName">Nocne Cienie</h2>
           <div className="about__right--clan">
             <p
               className="about__right--clan-tag"
@@ -54,7 +51,7 @@ const AboutMain: React.FC<AboutMain> = ({ url, onClick }) => {
               data-tooltip-id="tooltip-main"
               data-tooltip-content="Kliknij, żeby skopiować!"
             >
-              #Y09R909
+              #2POY2VJU2
             </p>
             <p className={`about__right--clan-popup ${hide}`}>
               Tekst skopiowany do schowka.

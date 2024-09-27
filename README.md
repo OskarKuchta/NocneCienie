@@ -19,23 +19,6 @@ more flexible server configuration. That's my first bigger project, I tried to u
 and ReactJS. In my opinion the most difficult thing to do on page was a create a Node server with Express JS framework to connect with
 two different endpoints to fetch data from Clash Of Clans API.
 
-## Some result photos
-
-#1 About clan content
-<img src="./public/result1.png" />
-<br /> <br />
-#2 Navigation menu
-<img src="./public/result2.png" />
-<br /> <br />
-#3 Stats top section
-<img src="./public/result3.png" />
-<br /> <br />
-#4 Different stats to filter players
-<img src="./public/result4.png" />
-<br /> <br />
-#5 Hidden table with stats + contact section
-<img src="./public/result5.png" />
-
 ## Available scripts
 
 In the project directory, you can run:

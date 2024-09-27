@@ -72,7 +72,7 @@ const Navbar: React.FC = () => {
           alt="logo Dobry Klan"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         />
-        <span className="navbar__left--name">DOBRY KLAN</span>
+        <span className="navbar__left--name">NOCNE CIENIE</span>
       </div>
       <div className="navbar__right">
         <ul className={`lists ${showMenu ? "show" : ""}`}>
