@@ -1,0 +1,79 @@
+.contact {
+  background-color: rgba(30, 32, 41, 0.9);
+  padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+.contact__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact__header--text {
+  font-size: 2rem;
+  display: inline;
+}
+.contact__header--envelope {
+  margin-left: 1rem;
+}
+.contacts {
+  margin-left: 35%;
+}
+
+.contacts__discord,
+.contacts__facebook {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+.contacts__discord--icon,
+.contacts__facebook--icon {
+  width: 4rem;
+  margin-right: 2rem;
+}
+.contacts__discord--icon,
+.contacts__facebook--icon,
+.contact__header--envelope {
+  transition: color 0.3s ease-in-out;
+}
+.contacts__discord--link,
+.contacts__facebook--link {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--white);
+  padding: 0.3rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.contacts__discord--icon:hover,
+.contacts__facebook--icon:hover,
+.contact__header--envelope:hover,
+.contacts__discord--link:hover,
+.contacts__facebook--link:hover {
+  color: blue;
+}
+.contacts__discord--link:focus,
+.contacts__facebook--link:focus {
+  outline: 1px solid antiquewhite;
+}
+@media screen and (max-width: 1100px) {
+  .contacts {
+    margin-left: 25%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact__header--text {
+    font-size: 1.5rem;
+  }
+  .contacts__discord--link,
+  .contacts__facebook--link {
+    font-size: 1.1rem;
+    text-align: start;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contacts {
+    margin-left: 5%;
+  }
+}
