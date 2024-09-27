@@ -41,7 +41,7 @@ const AboutAk: React.FC<AboutAkProps> = ({ url, onClick }) => {
         </div>
         <div className="about__right">
           <img src={data.badgeUrls.medium} alt="logo Dobry Klan" />
-          <h2 className="about__right--clanName">#Dobry Klan#</h2>
+          <h2 className="about__right--clanName">Dobry Klan</h2>
           <div className="about__right--clan">
             <p
               className="about__right--clan-tag"
